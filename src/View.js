@@ -8,6 +8,13 @@ const RemoteApp = lazy(() =>
       console.error("Error loading remote app:", e);
     })
 );
+// const RemoteApp = lazy(() =>
+//   import("web_mf_hubs/home")
+//     .then((module) => module)
+//     .catch((e) => {
+//       console.error("Error loading remote app:", e);
+//     })
+// );
 
 
 export default function View() {

@@ -14,6 +14,7 @@ module.exports = {
         filename: 'remoteEntry.js',
         remotes: {
           web_mf_blog: 'web_mf_blog@http://localhost:3010/tn/_next/static/chunks/remoteEntry.js',
+          web_mf_hubs: 'web_mf_hubs@http://localhost:3006/tn/_next/static/chunks/remoteEntry.js',
           // ptvweb: 'ptvweb@http://localhost:8081/_next/static/chunks/remoteEntry.js',
         },
         exposes: {
