@@ -1,0 +1,78 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# IDEs
+.idea/*
+.settings/
+.classpath
+.project
+.vscode/*
+!.vscode/launch.json
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# next.js
+.next/
+out/
+
+# production
+build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*
+!.env.extra
+!.env.stage
+!.env.shadow
+!.env.preview
+!.env.test-www
+.newrelic
+
+# turbo
+.turbo
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# cypress
+**/cypress/videos
+**/cypress/screenshots
+**/cypress/reports
+**/cypress/hars
+
+.structurizr
+workspace.json
+newrelic_agent.log
+
+# logs
+*.log
+
+# graphql codegen
+packages/tn-foundation/graphql/__generated
+
+# federated types
+packages/tn-foundation/types/
+
+#generated config json files
+apps/**/src/config/*.json
+
+# sonar-qube
+.scannerwork
